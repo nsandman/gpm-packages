@@ -2,8 +2,14 @@
 	"url": "http://getcomposer.org/installer",
 	"default": [
 		"php {FILENAME} --install-dir=\"{GPMDIR}/tmp\"",
-		"rm {GPMDIR}/tmp/composer", 
+		"rm {FILENAME}", 
 		"mv {GPMDIR}/tmp/composer.phar {FILENAME}",
 		"chmod +x {FILENAME}"
+	],
+	"win32": [
+		"php {FILENAME} --install-dir=\"{GPMDIR}/tmp\"",
+		"del {FILENAME}", 
+		"move {GPMDIR}/tmp/composer.phar {FILENAME}",
+		"icacls {FILENAME} /grant Everyone:rx"
 	]
 }
