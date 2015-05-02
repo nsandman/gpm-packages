@@ -1,6 +1,9 @@
 {
-	"url": "http://links.bargonaut.com/gpm/testing",
-	"commands": [
-		"chmod +x {FILENAME}"
-	]
+    "url": "http://links.bargonaut.com/gpm/testing",
+    "default": [
+        "chmod +x {FILENAME}"
+    ],
+    "win32": [
+        "icacls {FILENAME} /grant Everyone:rx"
+    ]
 }
