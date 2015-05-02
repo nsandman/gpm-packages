@@ -5,9 +5,5 @@
 		"rm {GPMDIR}/tmp/composer", 
 		"mv {GPMDIR}/tmp/composer.phar {FILENAME}",
 		"chmod +x {FILENAME}"
-	],
-	"win32": [
-		"echo 'Hello'",
-		"echo 'Boys'"
 	]
 }
