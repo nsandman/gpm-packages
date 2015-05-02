@@ -1,6 +1,6 @@
 {
 	"url": "https://semver.io/node/stable",
-	"commands": [
+	"default": [
 		"echo \"Downloading latest node.js source...\"",
 		"curl --progress-bar http://nodejs.org/dist/v`cat {FILENAME}`/node-v`cat {FILENAME}`.tar.gz > {GPMDIR}/tmp/node.tgz ",
 		"echo \"Extracting...\"",
