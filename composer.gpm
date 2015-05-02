@@ -7,9 +7,9 @@
 		"chmod +x {FILENAME}"
 	],
 	"win32": [
-		"php {FILENAME} --install-dir=\"{GPMDIR}/tmp\"",
+		"php {FILENAME} --install-dir=\"{GPMDIR}\tmp\"",
 		"del {FILENAME}", 
-		"move {GPMDIR}/tmp/composer.phar {FILENAME}",
+		"move {GPMDIR}\\tmp\\composer.phar {FILENAME}",
 		"icacls {FILENAME} /grant Everyone:rx"
 	]
 }
