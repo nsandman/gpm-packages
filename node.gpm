@@ -10,5 +10,7 @@
 		"make -C {GPMDIR}/tmp/node-v`cat {FILENAME}`",
 		"make -C install {GPMDIR}/tmp/node-v`cat {FILENAME}`",
 		"rm {FILENAME}"
-	]
+	], 
+	"short_description": "Evented I/O for v8 javascript",
+	"long_description": "Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices."
 }
