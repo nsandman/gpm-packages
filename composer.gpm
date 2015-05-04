@@ -11,5 +11,7 @@
 		"del {FILENAME}", 
 		"move {GPMDIR}\\tmp\\composer.phar {FILENAME}",
 		"icacls {FILENAME} /grant Everyone:rx"
-	]
+	],
+	"short_description": "Dependency Manager for PHP",
+	"long_description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere. See https://getcomposer.org/ for more information and documentation."
 }
