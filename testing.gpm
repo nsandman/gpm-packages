@@ -5,5 +5,7 @@
     ],
     "win32": [
         "icacls {FILENAME} /grant Everyone:rx"
-    ]
+    ],
+    "short_description": "A test package to install with GPM.",
+    "long_description": "When invoked, this package will echo the word 'testing' back."
 }
